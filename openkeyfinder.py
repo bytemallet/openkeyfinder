@@ -2,7 +2,7 @@ import requests
 import re
 import openai
 
-GITHUB_COOKIE_SESION = "" #<---- HERE
+GITHUB_COOKIE_SESSION = "" #<---- HERE
 
 print("""
 \033[94m 
@@ -20,7 +20,7 @@ print("""
 
 regex = r"sk-[a-zA-Z0-9]*T3BlbkFJ[a-zA-Z0-9]*"
 
-cookies = {'user_session': GITHUB_COOKIE_SESION}
+cookies = {'user_session': GITHUB_COOKIE_SESSION}
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0',
