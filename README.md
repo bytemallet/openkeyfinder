@@ -9,7 +9,7 @@ pip3 install requests openai
 ## Usage
 You will need to log in to GitHub using your browser and look for a cookie named _user_session_. Once you have it, insert it at the beginning of the script:
 ```
-GITHUB_COOKIE_SESION = "" #<--- HERE
+GITHUB_COOKIE_SESSION = "" #<--- HERE
 ```
 Now you are ready to execute the script:
 ```
